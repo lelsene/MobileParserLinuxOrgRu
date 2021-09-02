@@ -19,6 +19,7 @@
 - SwipeRefreshLayout 1.1.0
 - Flexbox 2.0.1
 - ConstraintLayout 2.0.1
+- [Сервер](https://github.com/lelsene/ServerMobileParserLinuxOrgRu)
 
 ## Экраны
 <img src="https://user-images.githubusercontent.com/43280704/131822101-d249e7d0-9d94-4686-9c11-82a84d17da9d.png" width="259" height="460" /> <img src="https://user-images.githubusercontent.com/43280704/131822123-03995d2e-98a9-4c94-a92f-0f466fb3a2ed.png" width="259" height="460" /> <img src="https://user-images.githubusercontent.com/43280704/131822120-5557dadd-616c-4218-8886-5ec6e4f80193.png" width="259" height="460" /> 
