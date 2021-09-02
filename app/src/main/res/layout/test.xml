@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="8dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2e3436"
+            android:clickable="true"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp">
+
+            <TextView
+                android:id="@+id/article_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/pt_serif"
+                android:justificationMode="inter_word"
+                android:text="gbhnjkferfejnfekjrfnerfnelrmglergnele"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/article_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/article_title"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/pt_serif"
+                android:justificationMode="inter_word"
+                android:scrollbars="vertical"
+                android:text="gbhnjkferfejnfekjrfnerfnelrmgleftgrtgrtgrrtgrtgrgnelhfghfghfghhyhfffyhfye\nadsefsf"
+                android:textColor="#babdb6"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/article_original"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/article_text"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="5dp"
+                android:text="gbgdgdfhn"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/article_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/article_original"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="5dp"
+                android:text="gbgdgdfhn"
+                android:textColor="#8be234"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/article_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/article_original"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="5dp"
+                android:gravity="end"
+                android:text="gbgdgdfhn"
+                android:textColor="#babdb6"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/article_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/article_author"
+                android:layout_alignParentStart="true"
+                app:srcCompat="@drawable/baseline_bookmark_border_white_18" />
+
+
+            <com.google.android.flexbox.FlexboxLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/linearLayout_tags"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/article_date"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@id/article_save"
+                android:background="#2e3436"
+                android:fontFamily="@font/pt_serif"
+                app:flexWrap="wrap"
+                app:justifyContent="flex_end">
+
+                <TextView
+                    android:id="@+id/article_tag1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:text="tag1апвапвапвапв"
+                    android:textColor="#fcaf3e"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/article_tag2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:text="tag2вапвапвпвпавпав"
+                    android:textColor="#fcaf3e"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/article_tag3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:text="tag3впвпапвапв"
+                    android:textColor="#fcaf3e"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/article_tag4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="tag3gtпв"
+                    android:textColor="#fcaf3e"
+                    android:textSize="12sp" />
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">#000000</item>
+    </style>
+
+    <style name="CustomWindowTitleText">
+        <item name="fontFamily">@font/pt_serif</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Widget.BottomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <item name="fontFamily">@font/pt_serif</item>
+    </style>
+</resources>
